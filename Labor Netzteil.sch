@@ -1,0 +1,286 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E7387DD
+P 1500 5050
+F 0 "J?" H 1418 4725 50  0000 C CNN
+F 1 "Conn_01x02" H 1418 4816 50  0000 C CNN
+F 2 "" H 1500 5050 50  0001 C CNN
+F 3 "~" H 1500 5050 50  0001 C CNN
+	1    1500 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:LM7812_TO220 U?
+U 1 1 5E7394C5
+P 4650 4950
+F 0 "U?" H 4650 5192 50  0000 C CNN
+F 1 "LM7812_TO220" H 4650 5101 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4650 5175 50  0001 C CIN
+F 3 "${KICAD_DATASHEETS}cd00000444-1795274.pdf" H 4650 4900 50  0001 C CNN
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E73A2C9
+P 4250 5400
+F 0 "C?" H 4365 5446 50  0000 L CNN
+F 1 "C" H 4365 5355 50  0000 L CNN
+F 2 "" H 4288 5250 50  0001 C CNN
+F 3 "~" H 4250 5400 50  0001 C CNN
+	1    4250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4950 4250 4950
+Wire Wire Line
+	4250 5250 4250 4950
+Connection ~ 4250 4950
+Wire Wire Line
+	4250 5950 4250 5550
+Wire Wire Line
+	4650 5250 4650 5950
+Wire Wire Line
+	4650 5950 4250 5950
+Connection ~ 4250 5950
+$Comp
+L Device:C C?
+U 1 1 5E73B7EB
+P 5150 5400
+F 0 "C?" H 5265 5446 50  0000 L CNN
+F 1 "C" H 5265 5355 50  0000 L CNN
+F 2 "" H 5188 5250 50  0001 C CNN
+F 3 "~" H 5150 5400 50  0001 C CNN
+	1    5150 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4950 5150 4950
+Wire Wire Line
+	5150 4950 5150 5250
+Wire Wire Line
+	5150 5550 5150 5950
+Wire Wire Line
+	5150 5950 4650 5950
+Connection ~ 4650 5950
+$Comp
+L Device:C C?
+U 1 1 5E745BF9
+P 4250 6800
+F 0 "C?" H 4365 6846 50  0000 L CNN
+F 1 "C" H 4365 6755 50  0000 L CNN
+F 2 "" H 4288 6650 50  0001 C CNN
+F 3 "~" H 4250 6800 50  0001 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6350 4250 6350
+Wire Wire Line
+	4250 6650 4250 6350
+Connection ~ 4250 6350
+Wire Wire Line
+	4250 7350 4250 6950
+Wire Wire Line
+	4650 6650 4650 7350
+Wire Wire Line
+	4650 7350 4250 7350
+Connection ~ 4250 7350
+$Comp
+L Device:C C?
+U 1 1 5E745C0E
+P 5150 6800
+F 0 "C?" H 5265 6846 50  0000 L CNN
+F 1 "C" H 5265 6755 50  0000 L CNN
+F 2 "" H 5188 6650 50  0001 C CNN
+F 3 "~" H 5150 6800 50  0001 C CNN
+	1    5150 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6350 5150 6350
+Wire Wire Line
+	5150 6350 5150 6650
+Wire Wire Line
+	5150 6950 5150 7350
+Wire Wire Line
+	5150 7350 4650 7350
+Connection ~ 4650 7350
+$Comp
+L Regulator_Linear:LM7805_TO220 U?
+U 1 1 5E74BA32
+P 4650 6350
+F 0 "U?" H 4650 6592 50  0000 C CNN
+F 1 "LM7805_TO220" H 4650 6501 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4650 6575 50  0001 C CIN
+F 3 "/home/tstolt/Dokumente/Github/Labor Netzteil/Datasheets/cd00000444-1795274.pdf" H 4650 6300 50  0001 C CNN
+	1    4650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E751960
+P 2600 4950
+F 0 "D?" H 2600 4734 50  0000 C CNN
+F 1 "D" H 2600 4825 50  0000 C CNN
+F 2 "" H 2600 4950 50  0001 C CNN
+F 3 "~" H 2600 4950 50  0001 C CNN
+	1    2600 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4950 2350 4950
+$Comp
+L Device:D D?
+U 1 1 5E752767
+P 2600 5150
+F 0 "D?" H 2600 4934 50  0000 C CNN
+F 1 "D" H 2600 5025 50  0000 C CNN
+F 2 "" H 2600 5150 50  0001 C CNN
+F 3 "~" H 2600 5150 50  0001 C CNN
+	1    2600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E753466
+P 2600 5350
+F 0 "D?" H 2600 5566 50  0000 C CNN
+F 1 "D" H 2600 5475 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "~" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5E75388D
+P 2600 5550
+F 0 "D?" H 2600 5766 50  0000 C CNN
+F 1 "D" H 2600 5675 50  0000 C CNN
+F 2 "" H 2600 5550 50  0001 C CNN
+F 3 "~" H 2600 5550 50  0001 C CNN
+	1    2600 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 4950
+Wire Wire Line
+	2450 5050 2450 5150
+Wire Wire Line
+	1700 5050 2250 5050
+Wire Wire Line
+	3500 4950 3500 6350
+Wire Wire Line
+	2350 4950 2350 5350
+Wire Wire Line
+	2350 5350 2450 5350
+Connection ~ 2350 4950
+Wire Wire Line
+	2350 4950 2450 4950
+Wire Wire Line
+	2250 5050 2250 5550
+Wire Wire Line
+	2250 5550 2450 5550
+Connection ~ 2250 5050
+Wire Wire Line
+	2250 5050 2450 5050
+Wire Wire Line
+	2750 5350 2750 5550
+Wire Wire Line
+	2750 4950 2750 5150
+Connection ~ 2750 4950
+Wire Wire Line
+	2750 5550 2750 5950
+Connection ~ 2750 5550
+Wire Wire Line
+	2750 5950 3050 5950
+Wire Wire Line
+	2750 5950 2750 7350
+Connection ~ 2750 5950
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E75A824
+P 5950 4950
+F 0 "J?" H 6030 4942 50  0000 L CNN
+F 1 "Fan" H 6030 4851 50  0000 L CNN
+F 2 "" H 5950 4950 50  0001 C CNN
+F 3 "~" H 5950 4950 50  0001 C CNN
+	1    5950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4950 5750 4950
+Connection ~ 5150 4950
+Wire Wire Line
+	5150 5950 5550 5950
+Wire Wire Line
+	5550 5950 5550 5050
+Wire Wire Line
+	5550 5050 5750 5050
+Connection ~ 5150 5950
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5E75CD24
+P 5950 6350
+F 0 "J?" H 6030 6342 50  0000 L CNN
+F 1 "ESP Board" H 6030 6251 50  0000 L CNN
+F 2 "" H 5950 6350 50  0001 C CNN
+F 3 "~" H 5950 6350 50  0001 C CNN
+	1    5950 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6350 5750 6350
+Connection ~ 5150 6350
+Wire Wire Line
+	5150 7350 5550 7350
+Wire Wire Line
+	5550 7350 5550 6450
+Wire Wire Line
+	5550 6450 5750 6450
+Connection ~ 5150 7350
+Wire Wire Line
+	3500 6350 4250 6350
+Wire Wire Line
+	2750 7350 4250 7350
+Wire Wire Line
+	2750 4950 3050 4950
+$Comp
+L Device:CP C?
+U 1 1 5E737B64
+P 3050 5400
+F 0 "C?" H 3168 5446 50  0000 L CNN
+F 1 "1000u/50V" H 3168 5355 50  0000 L CNN
+F 2 "" H 3088 5250 50  0001 C CNN
+F 3 "~" H 3050 5400 50  0001 C CNN
+	1    3050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5250 3050 4950
+Connection ~ 3050 4950
+Wire Wire Line
+	3050 4950 3500 4950
+Wire Wire Line
+	3050 5550 3050 5950
+Connection ~ 3050 5950
+Wire Wire Line
+	3050 5950 4250 5950
+Wire Wire Line
+	3500 4950 4250 4950
+$EndSCHEMATC
