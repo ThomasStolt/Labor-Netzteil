@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name ESP32-DevKitC)(type Legacy)(uri ${KIPRJMOD}/kicad/libraries/ESP32-DevKitC/ESP32-DevKitC.lib)(options "")(descr ""))
-)
