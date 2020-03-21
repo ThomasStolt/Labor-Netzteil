@@ -20,7 +20,6 @@ Ganz zunächst habe ich festgestellt, dass meine geplanten Kühlkörper deutlich
 
 # Top Notch Solution Design vom hochbezahlten Profi! :)
 
-![alt text](<https://github.com/ThomasStolt/LongTermEnvLogger/blob/master/Solution%20Architecture%2020200317.png>)
-
+![alt text](<https://github.com/ThomasStolt/Labor-Netzteil/blob/master/images/Grand%20Design%20-%20Labor%20Netzteil.png>)
 
 
