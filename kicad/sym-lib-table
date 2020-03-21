@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ESP32-DevKitC)(type Legacy)(uri "/home/tstolt/Dokumente/Github/Labor Netzteil/kicad/libraries/ESP32-DevKitC/ESP32-DevKitC.lib")(options "")(descr ""))
+  (lib (name "Relais Modul")(type Legacy)(uri "${KIPRJMOD}/libraries/Relais Modul/Relais Modul.lib")(options "")(descr ""))
 )
