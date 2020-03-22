@@ -1,0 +1,120 @@
+
+(rules PCB Labor Netzteil
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 457)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 400.2 (type default_Thicker))
+    (clear 50.0 (type smd_smd))
+    (clear 400.2 (type smd_Thicker))
+    (clear 400.2 (type "kicad_default"_Thicker))
+    (clear 400.2 (type Medium_Thicker))
+    (clear 400.2 (type Thicker_Thicker))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Medium" "Via[0-1]_800:400_um" Medium
+  )
+  (via 
+    "Via[0-1]_800:400_um-Thicker" "Via[0-1]_800:400_um" Thicker
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Medium "Via[0-1]_800:400_um-Medium"
+  )
+  (via_rule
+    Thicker "Via[0-1]_800:400_um-Thicker"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND SCL SDA 3V3 NeoPixel B1 B0 "Net-(U1-Pad8)"
+    "Net-(U1-Pad7)" "Net-(U5-Pad11)" A0 "Net-(U5-Pad12)" A1 "Net-(U5-Pad13)" "Net-(U5-Pad14)" "Net-(U5-Pad15)"
+    "Net-(U5-Pad16)" "Net-(U4-Pad2)" "Net-(U4-Pad3)" "Net-(U4-Pad4)" "Net-(U4-Pad8)" "Net-(U4-Pad9)" "Net-(U4-Pad12)" "Net-(U4-Pad13)"
+    "Net-(U4-Pad15)" "Net-(U4-Pad16)" "Net-(U4-Pad17)" "Net-(U4-Pad18)" "Net-(U4-Pad20)" "Net-(U4-Pad21)" "Net-(U4-Pad22)" "Net-(U4-Pad23)"
+    "Net-(U4-Pad24)" "Net-(U4-Pad25)" "Net-(U4-Pad26)" PWM TACHO "Net-(U4-Pad29)" "Net-(U4-Pad30)" "Net-(U4-Pad34)"
+    "Net-(U4-Pad35)" "Net-(U4-Pad37)" DS18B20 "Net-(J15-Pad1)" "Net-(J17-Pad1)" "V_MON_1" "V_MON_2"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Medium
+    5V 12V "Net-(C1-Pad1)"
+    (clearance_class Medium)
+    (via_rule Medium)
+    (rule
+      (width 750.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Thicker
+    "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(J1-Pad1)" "Net-(J2-Pad1)" "Net-(J3-Pad1)" "Net-(J4-Pad1)" "Net-(J10-Pad1)" "Net-(J12-Pad1)"
+    (clearance_class Thicker)
+    (via_rule Thicker)
+    (rule
+      (width 1500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
