@@ -6,14 +6,14 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 # Zutaten
 * 30V / 3A Power Supply aus dem Chinesischen Versand
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
-* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter ... obwohl ich hier den ADC Eingang eines ESP32 nutzen werde
+* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter ... obwohl ich hier zwei ADC Eingänge eines ESP32 nutzen werde
 * https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilbausatzes ... so ähnlich habe ich das auch vor, nur schöner :)
 * 2 x Ringkerntrafos (RKT 12012)
 * 4 x vernünftige Präzisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
-* Potiknöpfe von Marsall-Verstärkern :)
+* Potiknöpfe von Marshall-Verstärkern :)
 * Ein ausgedienter Intel-Prozessorlüfter
-* Ein ESP32 zum temperaturabhängigen Steuern des Lüfters und als Schwellwertumschaltung für den Trafo
-* Zwei digitale Kombi-Anzeigen V und A, auch aus dem Fernen Osten
+* Ein ESP32 zum temperaturabhängigen Lüftersteuerung, als Schwellwertumschaltung für den Trafo sowie zum Betrieb der NeoPixel
+* Zwei digitale Kombi-Anzeigen V und A, auch aus dem fernen Osten
 * Eventuell kommt noch ein OLED für diverse Info's hinzu, noch nicht klar
 * Eine alte Schatzkiste als Steam-Punk-Gehäuse
 
@@ -37,4 +37,6 @@ Ganz zunächst habe ich festgestellt, dass meine geplanten Kühlkörper deutlich
 
 # Status
 * Leiterplatte ist im Entwurf, zur Aufnahme der Relais, ESP32 und der Stromversorgung (12V/5V) für den Lüfter und den ESP32
-* 
+
+
+
