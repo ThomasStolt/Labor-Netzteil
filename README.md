@@ -18,6 +18,8 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 * Eine alte Schatzkiste als Steam-Punk-Gehäuse
 
 # Log
+## 23.03.20:
+Oh man, jetzt hätte ich beinahe den Vorwiderstand für die NeoPixel vergessen. Ich habe auch gleich noch einen Elko direkt am Anschluß für die NeoPixel platziert, nach 'best practice'.
 ## 22.03.20:
 Leiterplatte weitergemacht. Es ist jetzt das Relais-Modul drauf (Größe ist exakt, die Pins sind noch geschätzt, bis ich das tatsächliche Modul in der Hand habe). Pro Tip: Leiterplatten immer erst designen, wenn du alle Teile physisch auf deinem Tisch liegen hast!
 Zusätzlich sind jetzt noch 2 Spannungsteiler drauf. Der Plan ist damit die eingestellte Ausgangsspannung zu messen um bei > 14 Volt den Eingang mit 24V AC zu versorgen, ansonsten 12V AC. Damit sollte die abzuführende Wärme verringert werden (die Idee vom Bitbastelei Video).
