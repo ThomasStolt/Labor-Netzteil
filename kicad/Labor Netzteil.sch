@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:LM7812_TO220 U3
-U 1 1 5E7394C5
-P 4650 6350
-F 0 "U3" H 4650 6592 50  0000 C CNN
-F 1 "LM7812_TO220" H 4650 6501 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4650 6575 50  0001 C CIN
-F 3 "${KICAD_DATASHEETS}cd00000444-1795274.pdf" H 4650 6300 50  0001 C CNN
-	1    4650 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C2
 U 1 1 5E73A2C9
 P 4250 5400
@@ -480,7 +469,7 @@ Text GLabel 5750 4950 2    50   Input ~ 0
 Text GLabel 4350 3350 0    50   Input ~ 0
 5V
 Wire Wire Line
-	4350 3350 4550 3350
+	4350 3350 4450 3350
 Text GLabel 5750 6350 2    50   Input ~ 0
 12V
 Connection ~ 5150 6350
@@ -768,8 +757,6 @@ Connection ~ 1800 4950
 Connection ~ 1800 3450
 Wire Wire Line
 	5150 4950 5750 4950
-NoConn ~ 3750 2800
-NoConn ~ 3750 2900
 Text GLabel 8150 2000 3    50   Input ~ 0
 TACHO
 Text GLabel 8050 2000 3    50   Input ~ 0
@@ -1037,4 +1024,52 @@ Text GLabel 9100 1500 1    50   Input ~ 0
 5V
 Wire Wire Line
 	9100 1800 9100 1500
+$Comp
+L Regulator_Linear:L7812 U3
+U 1 1 5E7954AD
+P 4650 6350
+F 0 "U3" H 4650 6592 50  0000 C CNN
+F 1 "L7812" H 4650 6501 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4675 6200 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4650 6300 50  0001 C CNN
+	1    4650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 5E7A0326
+P 5150 3800
+F 0 "C7" H 5268 3846 50  0000 L CNN
+F 1 "470uF/25V" H 5268 3755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 5188 3650 50  0001 C CNN
+F 3 "~" H 5150 3800 50  0001 C CNN
+	1    5150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 3350
+Connection ~ 4450 3350
+Wire Wire Line
+	4450 3350 4550 3350
+$Comp
+L power:GND #PWR0101
+U 1 1 5E7A9F82
+P 5150 4150
+F 0 "#PWR0101" H 5150 3900 50  0001 C CNN
+F 1 "GND" H 5155 3977 50  0000 C CNN
+F 2 "" H 5150 4150 50  0001 C CNN
+F 3 "" H 5150 4150 50  0001 C CNN
+	1    5150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4150 5150 3950
+Wire Wire Line
+	3750 2800 3800 2800
+Wire Wire Line
+	3800 2800 3800 2900
+Wire Wire Line
+	3800 2900 3750 2900
 $EndSCHEMATC
