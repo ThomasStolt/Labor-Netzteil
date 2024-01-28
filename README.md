@@ -4,9 +4,9 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 
 
 # Zutaten
-* 30V / 3A Power Supply aus dem Chinesischen Versand
+* 30V / 3A Power Supply Bausatz aus dem Chinesischen Versand
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
-* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter ... obwohl ich hier zwei ADC Eingänge eines ESP32 nutzen werde
+* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC Eingänge eines ESP32 nutze
 * https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilbausatzes ... so ähnlich habe ich das auch vor, nur schöner :)
 * 2 x Ringkerntrafos (RKT 12012)
 * 4 x vernünftige Präzisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
