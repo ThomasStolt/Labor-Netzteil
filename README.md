@@ -8,7 +8,7 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
 * https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC Eingänge eines ESP32 nutze
 * https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilbausatzes ... so ähnlich habe ich das auch vor, nur schöner :)
-* 2 x Ringkerntrafos (RKT 12012)
+* 2 x Ringkerntrafos (RKT 12012, https://www.reichelt.de/ringkerntrafo-120-va-2x-12-v-2x-5-0-a-rkt-12012-p15262.html?&nbc=1)
 * 4 x vernünftige Präzisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
 * Potiknöpfe von Marshall-Verstärkern :)
 * Ein ausgedienter Intel-Prozessorlüfter
