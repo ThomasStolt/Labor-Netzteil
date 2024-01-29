@@ -18,8 +18,11 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 * Eine alte Schatzkiste als Steam-Punk-Gehäuse
 
 # Log
+## 29.01.2024
+Endlich komme ich mal wieder hierzu. Ich habe jetzt einfach mal die Leiterplatten so bestellt. Ob das alles so in die Kiste reinpast, die ich dafür gehot habe, ist fraglich. Es bleibt spannend! :)
+
 ## 24.03.2020
-Endlich ist das Relais-Modul angekommen. Wenn ich solche Module bekomme, dann entlöte ich generell die Anschlüsse und baue mir einen entsprechenden Footprint in KiCad, so, dass man das Modul direkt auf die Hauptplatine stecken und verlöten kann.
+Endlich ist das Relais-Modul angekommen. Wenn ich solche Module bekomme, dann entlöte ich generell die Anschlüsse und baue mir einen entsprechenden Footprint in KiCad, sdass man das Modul direkt auf die Hauptplatine stecken und verlöten kann.
 ![alt text](<https://github.com/ThomasStolt/Labor-Netzteil/blob/master/images/Relais%20Modul.jpg>)
 
 Ich kann die Leiterplatte allerdings noch gar nicht fertigstellen, da ich noch nicht weiss, wieviel und welchen Platz ich im Gehäuse haben werde. Momentan ist die Platine ja fast quadratisch, kann durchaus sein, dass ich sie wegen Platzmangel länglich machen muss. Dazu muss ich jetzt erst noch warten müssen, bis die richtigen Kühlkörper ankommen. Ich hatte zwar welche bestellt, die sind mir aber zu klein. Diese sollten morgen, spätestens übermorgen ankommen.
