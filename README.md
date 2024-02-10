@@ -4,15 +4,15 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 
 
 # Zutaten
-* 30V / 3A Power Supply Bausatz aus dem Chinesischen Versand
+* Der "Hiland" 30V / 3A Power Supply Bausatz aus dem fern�stlichen Versand
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
-* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC Eingänge eines ESP32 nutze
-* https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilbausatzes ... so ähnlich habe ich das auch vor, nur schöner :)
+* https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC Eingänge eines ESP32 nutzn
+* https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilprojektes ... so ähnlich habe ich das auch vor, nur schöner :)
 * 2 x Ringkerntrafos (RKT 12012, https://www.reichelt.de/ringkerntrafo-120-va-2x-12-v-2x-5-0-a-rkt-12012-p15262.html?&nbc=1)
 * 4 x vernünftige Präzisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
 * Potiknöpfe von Marshall-Verstärkern :)
 * Ein ausgedienter Intel-Prozessorlüfter
-* Ein ESP32 zum temperaturabhängigen Lüftersteuerung, als Schwellwertumschaltung für den Trafo sowie zum Betrieb der NeoPixel
+* Ein ESP32 DevKit C V4 zum temperaturabhängigen Lüftersteuerung, als Schwellwertumschaltung für den Trafo sowie zum Betrieb der NeoPixel f�r die Innebeleuchtung
 * Zwei digitale Kombi-Anzeigen V und A, auch aus dem fernen Osten
 * Eventuell kommt noch ein OLED für diverse Info's hinzu, noch nicht klar
 * Eine alte Schatzkiste als Steam-Punk-Gehäuse
