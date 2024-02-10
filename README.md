@@ -19,7 +19,7 @@ Sooo, der Spaß hier soll ein Steam-Punk-Labornetzteil werden. Dazu nehme ich 2 
 
 # Log
 ## 10.02.2024
-Das PC ist gekommen und scheint soweit zu passen. Ein paar kleinere Sachen habe ich vergessen (z.B. einen Anschluss für die Anzeigen), aber das ist halb so schlimmt. Zuerst hatte ich die Anzeigen falsch angeschlossen und sie haben unplausible Werte angezeigt. Nach etwas Googlen war dann aber klar, wie sie anzuschliessen sind.
+Das PCB ist gekommen und scheint soweit zu passen. Ein paar kleinere Sachen habe ich vergessen (z.B. einen Anschluss für die Anzeigen), aber das ist halb so schlimmt. Zuerst hatte ich die Anzeigen falsch angeschlossen und sie haben unplausible Werte angezeigt. Nach etwas Googlen war dann aber klar, wie sie anzuschliessen sind.
 Grundsätzlich laufen jetzt die beiden Netzteile, im Moment noch bis 15V, da die Umschaultung auf 24V AC noch fehlt. Aber sieht schon ganz gut aus alles. :)
 
 ## 29.01.2024
