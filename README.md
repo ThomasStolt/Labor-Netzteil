@@ -4,7 +4,7 @@ Sooo, der Spaß hier soll ein Labornetzteil werden. Dazu nehme ich 2 x den Bausa
 
 
 # Zutaten
-* Der "Hiland" 30V / 3A Power Supply Bausatz aus dem fern�stlichen Versand
+* Der "Hiland" 30V / 3A Power Supply Bausatz aus dem fernöstlichen Versand
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
 * https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC Eingänge eines ESP32 nutzn
 * https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilprojektes ... so ähnlich habe ich das auch vor, nur schöner :)
