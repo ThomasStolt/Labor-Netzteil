@@ -26,38 +26,38 @@ Grundsätzlich laufen jetzt die beiden Netzteile, im Moment noch bis 15V, da die
 Endlich komme ich mal wieder hierzu. Ich habe jetzt einfach mal die Leiterplatten so bestellt. Ob das alles so in die Kiste reinpast, die ich dafÃ¼r gehot habe, ist fraglich. Es bleibt spannend! :)
 
 ## 24.03.2020
-Endlich ist das Relais-Modul angekommen. Wenn ich solche Module bekomme, dann entlÃ¶te ich generell die AnschlÃ¼sse und baue mir einen entsprechenden Footprint in KiCad, sdass man das Modul direkt auf die Hauptplatine stecken und verlÃ¶ten kann.
+Endlich ist das Relais-Modul angekommen. Wenn ich solche Module bekomme, dann entlöte ich generell die Anschlüsse und baue mir einen entsprechenden Footprint in KiCad, sdass man das Modul direkt auf die Hauptplatine stecken und verlöten kann.
 ![alt text](<https://github.com/ThomasStolt/Labor-Netzteil/blob/master/images/Relais%20Modul.jpg>)
 
-Ich kann die Leiterplatte allerdings noch gar nicht fertigstellen, da ich noch nicht weiss, wieviel und welchen Platz ich im GehÃ¤use haben werde. Momentan ist die Platine ja fast quadratisch, kann durchaus sein, dass ich sie wegen Platzmangel lÃ¤nglich machen muss. Dazu muss ich jetzt erst noch warten mÃ¼ssen, bis die richtigen KÃ¼hlkÃ¶rper ankommen. Ich hatte zwar welche bestellt, die sind mir aber zu klein. Diese sollten morgen, spÃ¤testens Ã¼bermorgen ankommen.
+Ich kann die Leiterplatte allerdings noch gar nicht fertigstellen, da ich noch nicht weiss, wieviel und welchen Platz ich im Gehäuse haben werde. Momentan ist die Platine ja fast quadratisch, kann durchaus sein, dass ich sie wegen Platzmangel länglich machen muss. Dazu muss ich jetzt erst noch warten müssen, bis die richtigen Kühlkörper ankommen. Ich hatte zwar welche bestellt, die sind mir aber zu klein. Diese sollten Morgen, spätestens Übermorgen ankommen.
 
-Auch die Marshall KnÃ¶pfe sind gekommen ... und sehen seeeeeeeehr gut aus :)
+Auch die Marshall Knöpfe sind gekommen ... und sehen seeeeeeeehr gut aus :)
 ![alt text](<https://github.com/ThomasStolt/Labor-Netzteil/blob/master/images/Deckel%20mit%20Marschall%20KnÃ¶pfen.jpg>)
 ## 23.03.20:
-Oh man, jetzt hÃ¤tte ich beinahe den Vorwiderstand fÃ¼r die NeoPixel vergessen. Ich habe auch gleich noch einen Elko direkt am AnschluÃ fÃ¼r die NeoPixel platziert, nach 'best practice'.
+Oh man, jetzt hätte ich beinahe den Vorwiderstand für die NeoPixel vergessen. Ich habe auch gleich noch einen Elko direkt am Anschluß für die NeoPixel platziert, nach 'best practice'.
 
-Ich habe auch gleich noch einen StÃ¼tzkondensator (470uF/25V) fÃ¼r den ESP32 vorgesehen ... man weiÃ ja nie!
+Ich habe auch gleich noch einen Stützkondensator (470uF/25V) fÃ¼r den ESP32 vorgesehen ... man weiß ja nie!
 ## 22.03.20:
-Leiterplatte weitergemacht. Es ist jetzt das Relais-Modul drauf (GrÃ¶Ãe ist exakt, die Pins sind noch geschÃ¤tzt, bis ich das tatsÃ¤chliche Modul in der Hand habe). Pro Tip: Leiterplatten immer erst designen, wenn du alle Teile physisch auf deinem Tisch liegen hast!
+Leiterplatte weitergemacht. Es ist jetzt das Relais-Modul drauf (Größe ist exakt, die Pins sind noch geschätzt, bis ich das tatsächliche Modul in der Hand habe). Pro Tip: Leiterplatten immer erst designen, wenn du alle Teile physisch auf deinem Tisch liegen hast!
 
-ZusÃ¤tzlich sind jetzt noch 2 Spannungsteiler drauf. Der Plan ist damit die eingestellte Ausgangsspannung zu messen um bei > 14 Volt den Eingang mit 24V AC zu versorgen, ansonsten 12V AC. Damit sollte die abzufÃ¼hrende WÃ¤rme verringert werden (die Idee vom Bitbastelei Video).
+Zusätzlich sind jetzt noch 2 Spannungsteiler drauf. Der Plan ist damit die eingestellte Ausgangsspannung zu messen um bei > 14 Volt den Eingang mit 24V AC zu versorgen, ansonsten 12V AC. Damit sollte die abzuführende Wärme verringert werden (die Idee vom Bitbastelei Video).
 
-Auch sind AnschlÃ¼sse drauf fÃ¼r den TemperaturfÃ¼hler (DS18B20), den LÃ¼fter und die NeoPixel.
+Auch sind Anschlüsse drauf für den Temperaturfühler (DS18B20), den Lüfter und die NeoPixel.
 ## 21.03.20: 
 ...grad gemerkt, dass es einfacher ist ein fertiges 2-fach Relais-Modul in Asien zu bestellen, als sich die Schaltung selbst zusammenzustellen. Ist unterwegs...
 ## 21.03.20: 
-...auch zum GlÃ¼ck grad gemerkt, dass diese Relais-Module mit 5V betrieben werden, aber auch 5V Eingangssignal benÃ¶tigen, um zu schalten. Naja, damit habe ich Erfahrung, es kommt also noch ein 74HCT245 hinzu, der zuverlÃ¤ssig als Level-Shifter fungiert.
+...auch zum Glück grad gemerkt, dass diese Relais-Module mit 5V betrieben werden, aber auch 5V Eingangssignal benötigen, um zu schalten. Naja, damit habe ich Erfahrung, es kommt also noch ein 74HCT245 hinzu, der zuverlässig als Level-Shifter fungiert.
 ## 21.3.20.: 
-Damit das richtig 'punk-ed' (im SteamPunk-GehÃ¤use) werde ich ein paar Neo-Pixel in das GehÃ¤use bauen, die bei Betrieb dann ordentlich Lichteffekte machen kÃ¶nnen, zu sehen dann durch die Luftein- und -austrittslÃ¶cher und eventuelle ritzen :) Dann kann der Level-Shifter gleich helfen beim Betrieb der Neo-Pixel (cool wÃ¤re ja auch noch ein Smoke-Generator - aber dass ist dann wohl doch overkill). Aber ein Lautsprecher mit DampfmaschinengerÃ¤usch? Wie geil wÃ¤re dass denn? :)
+Damit das richtig 'punk-ed' (im SteamPunk-Gehäuse) werde ich ein paar Neo-Pixel in das Gehäuse bauen, die bei Betrieb dann ordentlich Lichteffekte machen können, zu sehen dann durch die Luftein- und -austrittslöcher und eventuelle ritzen :) Dann kann der Level-Shifter gleich helfen beim Betrieb der Neo-Pixel (cool wäre ja auch noch ein Smoke-Generator - aber dass ist dann wohl doch overkill). Aber ein Lautsprecher mit Dampfmaschinengeräusch? Wie geil wäre dass denn? :)
 ## 20.03.20: 
-Ganz zunÃ¤chst habe ich festgestellt, dass meine geplanten KÃ¼hlkÃ¶rper deutlich zu klein waren. 1A und 1V Ã¼ber einem Lastwiedersand haben die KÃ¼hlkÃ¶rper innerhalb von 20 Sekunden auf 80Â°C gebracht. Also gleich einmal neue bestellt, die sind unterwegs in der Post.
+Ganz zunächst habe ich festgestellt, dass meine geplanten Kühlkörper deutlich zu klein waren. 1A und 1V über einem Lastwidersand haben die Kühlkörper innerhalb von 20 Sekunden auf 80°C gebracht. Also gleich einmal neue bestellt, die sind unterwegs in der Post.
 
 # Top Notch Solution Design vom hochbezahlten Profi! :)
 
 ![alt text](<https://github.com/ThomasStolt/Labor-Netzteil/blob/master/images/Grand%20Design%20-%20Labor%20Netzteil.png>)
 
 # Status
-* Leiterplatte ist im Entwurf, zur Aufnahme der Relais, ESP32 und der Stromversorgung (12V/5V) fÃ¼r den LÃ¼fter und den ESP32
+* Leiterplatte ist im Entwurf, zur Aufnahme der Relais, ESP32 und der Stromversorgung (12V/5V) für den Lüfter und den ESP32
 
 
 
