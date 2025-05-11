@@ -7,23 +7,30 @@ Sooo, der Spaß hier soll ein Steam-Punk-Labornetzteil werden. Dazu nehme ich 2 
 * Der "Hiland" 30V / 3A Power Supply Bausatz aus dem fernöstlichen Versand
 * https://youtu.be/GyKeNLSQvXk - der Bausatz selbst
 * https://youtu.be/txPFAZrlzXQ - Schwellspannungsschalter, die Idee ist super, zur Realisierung werde ich hier allerdings zwei ADC EingÃ¤nge eines ESP32 nutzn
-* https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilprojektes ... so Ã¤hnlich habe ich das auch vor, nur schöner :)
+* https://youtu.be/yiRMvMb5ZxQ - Teil 2 des Netzteilprojektes ... so Ãhnlich habe ich das auch vor, nur schöner :)Ä
 * 2 x Ringkerntrafos (RKT 12012, https://www.reichelt.de/ringkerntrafo-120-va-2x-12-v-2x-5-0-a-rkt-12012-p15262.html?&nbc=1)
-* 4 x vernünftige PrÃ¤zisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
+* 4 x vernünftige Präzisionspotis, 10-Gang (534-10k) von Vishay (534B1103JC)
 * Potiknöpfe von Marshall-Verstärkern :)
 * Ein ausgedienter Intel-Prozessorlüfter
-* Ein ESP32 DevKit C V4 zum temperaturabhängigen Lüftersteuerung, als Schwellwertumschaltung für den Trafo sowie zum Betrieb der NeoPixel für die Innebeleuchtung
+* Ein ESP32 DevKit C V4 zum temperaturabhängigen Lüftersteuerung, als Schwellwertumschaltung für den Trafo sowie zum Betrieb der NeoPixel für die Innenbeleuchtung
 * Zwei digitale Kombi-Anzeigen V und A, auch aus dem fernen Osten
 * Eventuell kommt noch ein OLED für diverse Info's hinzu, noch nicht klar
 * Eine alte Schatzkiste als Steam-Punk-Gehäuse
 
 # Log
+## 11.05.2025
+Nach langer Zeit endlich mal wieder etwas Zeit in das Projekt stecken. Letzt Erkenntnisse waren, das die Schaltung so nicht funktioniert. Schwierig zu erklären, aber die Idee aus dem Trafo 12V und 5V abzugreifen und damit die Logik-Schaltung zu versorgen hat einfach nicht funktioniert. Also, neuer Ansatz, es kommt ein kleines Netzteil 5V/4A zum Einsatz. Darüber werden dann der Lüfter als auch die Neopixel versorgt. 
+Ich habe mich jetzt für andere Display Module entschieden, und zwar die ST7789v2, mit abgerundeten Ecken. Die sehen sehr schick aus und ich habe in einem andere (kleinen) Projekt gelernt, wie man damit umgeht. Sehen echt stark aus.
+Ausserdem kommt noch ein Verstärkermodul (MAX98735A) hinein - das Singende Klingende Labornetzteil ;)
+
+Neue Platine ist auch entworfen. Mal schauen, wie viele Fehler da jetzt drin sind ;)
+
 ## 10.02.2024
 Das PCB ist gekommen und scheint soweit zu passen. Ein paar kleinere Sachen habe ich vergessen (z.B. einen Anschluss für die Anzeigen), aber das ist halb so schlimmt. Zuerst hatte ich die Anzeigen falsch angeschlossen und sie haben unplausible Werte angezeigt. Nach etwas Googlen war dann aber klar, wie sie anzuschliessen sind.
 Grundsätzlich laufen jetzt die beiden Netzteile, im Moment noch bis 15V, da die Umschaultung auf 24V AC noch fehlt. Aber sieht schon ganz gut aus alles. :)
 
 ## 29.01.2024
-Endlich komme ich mal wieder hierzu. Ich habe jetzt einfach mal die Leiterplatten so bestellt. Ob das alles so in die Kiste reinpast, die ich dafÃ¼r gehot habe, ist fraglich. Es bleibt spannend! :)
+Endlich komme ich mal wieder hierzu. Ich habe jetzt einfach mal die Leiterplatten so bestellt. Ob das alles so in die Kiste reinpast, die ich dafür gehot habe, ist fraglich. Es bleibt spannend! :)
 
 ## 24.03.2020
 Endlich ist das Relais-Modul angekommen. Wenn ich solche Module bekomme, dann entlöte ich generell die Anschlüsse und baue mir einen entsprechenden Footprint in KiCad, sdass man das Modul direkt auf die Hauptplatine stecken und verlöten kann.
