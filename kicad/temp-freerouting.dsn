@@ -1,4 +1,4 @@
-(pcb "/Users/thomasstolt/Library/CloudStorage/OneDrive-Persönlich/Documents/Github/Labor-Netzteil/kicad/Labor Netzteil.dsn"
+(pcb "/Users/thomasstolt/Library/CloudStorage/OneDrive-Persönlich/Documents/Github/Labor-Netzteil/kicad/temp-freerouting.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)

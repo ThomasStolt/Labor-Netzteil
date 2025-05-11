@@ -1094,10 +1094,6 @@
     (stroke (width 0) (type default))
     (uuid 2e1c090a-aaf9-463a-8d64-c060525b7659)
   )
-  (wire (pts (xy 91.44 131.445) (xy 91.44 134.62))
-    (stroke (width 0) (type default))
-    (uuid 2ef8e4a8-daed-4859-8093-dac50b47b69e)
-  )
   (wire (pts (xy 231.14 53.34) (xy 231.14 55.88))
     (stroke (width 0) (type default))
     (uuid 2f2ec536-3078-4d80-8c81-18970196b336)
@@ -1246,10 +1242,6 @@
     (stroke (width 0) (type default))
     (uuid 54bf68b0-f544-4950-9f96-5faf88deed67)
   )
-  (wire (pts (xy 98.425 131.445) (xy 98.425 134.62))
-    (stroke (width 0) (type default))
-    (uuid 55350a38-1510-48d8-b361-5f46a1d83a18)
-  )
   (wire (pts (xy 149.86 13.97) (xy 149.86 24.13))
     (stroke (width 0) (type default))
     (uuid 5568e6b3-4158-42d1-94fd-bae5d4d4c1d7)
@@ -1336,10 +1328,6 @@
   (wire (pts (xy 198.755 125.095) (xy 192.405 125.095))
     (stroke (width 0) (type default))
     (uuid 7f7e8c69-c51f-4163-81f2-501a41eb0a2a)
-  )
-  (wire (pts (xy 84.455 131.445) (xy 84.455 134.62))
-    (stroke (width 0) (type default))
-    (uuid 88b9c3e7-af6c-4b6b-baa7-4866f2a80d25)
   )
   (wire (pts (xy 182.88 49.53) (xy 185.42 49.53))
     (stroke (width 0) (type default))
@@ -1603,7 +1591,7 @@
     (stroke (width 0) (type default))
     (uuid eb605be2-1351-47eb-aa1b-82ebb83a26a1)
   )
-  (wire (pts (xy 77.47 131.445) (xy 77.47 134.62))
+  (wire (pts (xy 273.05 33.02) (xy 273.05 36.195))
     (stroke (width 0) (type default))
     (uuid ee9b5825-6029-4630-ba37-45d7b3f89ac8)
   )
@@ -2426,7 +2414,7 @@
   (symbol (lib_id "power:GND") (at 231.14 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e76bf25)
-    (property "Reference" "#PWR015" (at 231.14 67.31 0)
+    (property "Reference" "#PWR011" (at 231.14 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.267 65.3542 0)
@@ -2442,7 +2430,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2590,7 +2578,7 @@
   (symbol (lib_id "power:GND") (at 164.465 141.605 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e77e602)
-    (property "Reference" "#PWR011" (at 164.465 147.955 0)
+    (property "Reference" "#PWR07" (at 164.465 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 164.592 145.9992 0)
@@ -2606,7 +2594,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2615,7 +2603,7 @@
   (symbol (lib_id "power:GND") (at 219.71 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e784cc7)
-    (property "Reference" "#PWR014" (at 219.71 162.56 0)
+    (property "Reference" "#PWR010" (at 219.71 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.837 160.6042 0)
@@ -2631,7 +2619,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2718,7 +2706,7 @@
   (symbol (lib_id "power:GND") (at 242.57 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e7a23c5)
-    (property "Reference" "#PWR016" (at 242.57 162.56 0)
+    (property "Reference" "#PWR012" (at 242.57 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.697 160.6042 0)
@@ -2734,7 +2722,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2813,7 +2801,7 @@
   (symbol (lib_id "power:GND") (at 179.705 158.115 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e7abf01)
-    (property "Reference" "#PWR012" (at 179.705 164.465 0)
+    (property "Reference" "#PWR08" (at 179.705 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.832 162.5092 0)
@@ -2829,7 +2817,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2989,7 +2977,7 @@
   (symbol (lib_id "power:GND") (at 99.06 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e85334d)
-    (property "Reference" "#PWR08" (at 99.06 91.44 0)
+    (property "Reference" "#PWR04" (at 99.06 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.187 89.4842 0)
@@ -3005,7 +2993,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3094,7 +3082,7 @@
   (symbol (lib_id "power:GND") (at 212.09 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e8bfe77)
-    (property "Reference" "#PWR013" (at 212.09 107.95 0)
+    (property "Reference" "#PWR09" (at 212.09 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.217 105.9942 0)
@@ -3110,7 +3098,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3145,7 +3133,7 @@
   (symbol (lib_id "power:GND") (at 160.655 23.495 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2339c61f-2096-4448-979c-bdd7b1a8744f)
-    (property "Reference" "#PWR010" (at 160.655 29.845 0)
+    (property "Reference" "#PWR06" (at 160.655 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.782 27.8892 0)
@@ -3161,7 +3149,7 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3192,56 +3180,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 91.44 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4d320770-edd3-4dfd-b515-6fc3f7a571f3)
-    (property "Reference" "H3" (at 93.98 126.365 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 93.98 128.905 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" (at 91.44 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 91.44 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid da96c45e-5cc1-4574-b2b4-50310ca68082))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 98.425 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4d480224-ba01-4870-a1f0-e5c1cb5b3106)
-    (property "Reference" "H4" (at 100.965 126.365 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 100.965 128.905 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" (at 98.425 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 98.425 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e431fe9f-6e5d-4117-a444-16255688fd73))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 48.26 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54f2cac1-3ed8-40b4-bebb-91ca8c1cce60)
@@ -3262,31 +3200,6 @@
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
           (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 91.44 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 568eed50-569d-419b-95f1-8f3207f0b8f1)
-    (property "Reference" "#PWR06" (at 91.44 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 91.567 139.0142 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 91.44 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 91.44 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6ec3501e-4e3b-4204-82cf-0a1a64bdc432))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3320,7 +3233,7 @@
   (symbol (lib_id "power:GND") (at 149.86 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ec0147f-acd6-49b0-b72e-d8149cfc144e)
-    (property "Reference" "#PWR09" (at 149.86 105.41 0)
+    (property "Reference" "#PWR05" (at 149.86 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.987 103.4542 0)
@@ -3336,25 +3249,25 @@
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 77.47 128.905 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 273.05 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a903f5f4-e832-4206-a7ad-6d5590689d9a)
-    (property "Reference" "H1" (at 80.01 126.365 0)
+    (property "Reference" "H1" (at 275.59 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole_Pad" (at 80.01 128.905 0)
+    (property "Value" "MountingHole_Pad" (at 275.59 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" (at 77.47 128.905 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" (at 273.05 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 77.47 128.905 0)
+    (property "Datasheet" "~" (at 273.05 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 66b4eb19-72ef-4bee-95b8-5001aa76ea80))
@@ -3392,76 +3305,26 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 84.455 128.905 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b91efe1f-8000-4d89-b850-e89eca1ef3d5)
-    (property "Reference" "H2" (at 86.995 126.365 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 86.995 128.905 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" (at 84.455 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 84.455 128.905 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40c9412c-7915-42b8-83b9-cffb2419adee))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 98.425 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c7f64140-eed3-4d96-ba23-a8b4dbb0166e)
-    (property "Reference" "#PWR07" (at 98.425 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 98.552 139.0142 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 98.425 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 98.425 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 594551e6-aec5-41d2-9e44-ae42e6a5b761))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 77.47 134.62 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 273.05 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdb77542-22c8-4d75-b1e9-88ffeda92384)
-    (property "Reference" "#PWR04" (at 77.47 140.97 0)
+    (property "Reference" "#PWR013" (at 273.05 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 77.597 139.0142 0)
+    (property "Value" "GND" (at 273.177 40.5892 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.47 134.62 0)
+    (property "Footprint" "" (at 273.05 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 77.47 134.62 0)
+    (property "Datasheet" "" (at 273.05 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fcfb310a-10ea-491a-83e8-220eb6689248))
     (instances
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -3549,31 +3412,6 @@
       (project "Labor Netzteil"
         (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
           (reference "U2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 84.455 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid fb751cea-606a-47ae-a9f2-5354d403c578)
-    (property "Reference" "#PWR05" (at 84.455 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 84.582 139.0142 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 84.455 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 84.455 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fa86a333-70e5-469f-b42e-7a91a210906d))
-    (instances
-      (project "Labor Netzteil"
-        (path "/800773e3-b5e8-420b-b715-cf6dd2dc9508"
-          (reference "#PWR05") (unit 1)
         )
       )
     )

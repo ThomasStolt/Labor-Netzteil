@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/thomasstolt/Library/Arduino15/packages/esp32/hardware/esp32/3.0.0-alpha3/cores/esp32/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/Users/thomasstolt/.platformio/packages/toolchain-xtensa-esp32-arm/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "macos-gcc-x86"
+        }
+    ],
+    "version": 4
+}
